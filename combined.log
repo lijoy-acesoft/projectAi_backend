@@ -1,0 +1,97 @@
+{"level":"info","message":"127.0.0.1 - - [21/Jun/2024:12:51:55 +0000] \"GET / HTTP/1.1\" 200 4 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\""}
+{"level":"info","message":"127.0.0.1 - - [21/Jun/2024:12:51:56 +0000] \"GET /favicon.ico HTTP/1.1\" 404 26 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\""}
+2024-06-21T13:12:16.975Z [info]: 127.0.0.1 - - [21/Jun/2024:13:12:16 +0000] "GET /project HTTP/1.1" 200 4 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T13:12:30.557Z [info]: 127.0.0.1 - - [21/Jun/2024:13:12:30 +0000] "GET /projectsdf HTTP/1.1" 404 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T13:45:23.873Z [info]: 127.0.0.1 - - [21/Jun/2024:13:45:23 +0000] "GET /project/create_project HTTP/1.1" 404 26 "-" "PostmanRuntime/7.37.3"
+2024-06-21T13:46:16.874Z [info]: 127.0.0.1 - - [21/Jun/2024:13:46:16 +0000] "POST /project/create_project HTTP/1.1" 201 383 "-" "PostmanRuntime/7.37.3"
+2024-06-21T13:46:24.096Z [info]: 127.0.0.1 - - [21/Jun/2024:13:46:24 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T13:46:36.002Z [info]: 127.0.0.1 - - [21/Jun/2024:13:46:36 +0000] "POST /project/create_project HTTP/1.1" 201 387 "-" "PostmanRuntime/7.37.3"
+2024-06-21T13:55:47.568Z [info]: 127.0.0.1 - - [21/Jun/2024:13:55:47 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T13:55:51.142Z [info]: 127.0.0.1 - - [21/Jun/2024:13:55:51 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T13:56:00.524Z [info]: 127.0.0.1 - - [21/Jun/2024:13:56:00 +0000] "POST /project/create_project HTTP/1.1" 400 166 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:05:01.721Z [info]: 127.0.0.1 - - [21/Jun/2024:14:05:01 +0000] "POST /project/create_project HTTP/1.1" 400 166 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:26:47.921Z [info]: 127.0.0.1 - - [21/Jun/2024:14:26:47 +0000] "POST /project/create_project HTTP/1.1" 400 166 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:26:56.460Z [info]: 127.0.0.1 - - [21/Jun/2024:14:26:56 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:27:01.187Z [info]: 127.0.0.1 - - [21/Jun/2024:14:27:01 +0000] "POST /project/create_project HTTP/1.1" 201 384 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:31:03.431Z [info]: 127.0.0.1 - - [21/Jun/2024:14:31:03 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:31:08.660Z [info]: 127.0.0.1 - - [21/Jun/2024:14:31:08 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:31:18.818Z [info]: 127.0.0.1 - - [21/Jun/2024:14:31:18 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:32:37.952Z [info]: 127.0.0.1 - - [21/Jun/2024:14:32:37 +0000] "PUT /project/update_project/1 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:32:45.286Z [info]: 127.0.0.1 - - [21/Jun/2024:14:32:45 +0000] "PUT /project/update_project/1 HTTP/1.1" 200 387 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:32:57.151Z [info]: 127.0.0.1 - - [21/Jun/2024:14:32:57 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 383 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:33:15.133Z [info]: 127.0.0.1 - - [21/Jun/2024:14:33:15 +0000] "PUT /project/update_project/2 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:33:17.548Z [info]: 127.0.0.1 - - [21/Jun/2024:14:33:17 +0000] "PUT /project/update_project/2 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:33:23.448Z [info]: 127.0.0.1 - - [21/Jun/2024:14:33:23 +0000] "PUT /project/update_project/2 HTTP/1.1" 500 38 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:33:25.127Z [info]: 127.0.0.1 - - [21/Jun/2024:14:33:25 +0000] "PUT /project/update_project/2 HTTP/1.1" 500 38 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:34:30.099Z [info]: 127.0.0.1 - - [21/Jun/2024:14:34:30 +0000] "PUT /project/update_project/2 HTTP/1.1" 500 38 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:35:21.774Z [info]: 127.0.0.1 - - [21/Jun/2024:14:35:21 +0000] "PUT /project/update_project/2 HTTP/1.1" 500 38 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:35:49.652Z [info]: 127.0.0.1 - - [21/Jun/2024:14:35:49 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 321 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:36:46.983Z [info]: 127.0.0.1 - - [21/Jun/2024:14:36:46 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 321 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:37:02.628Z [info]: 127.0.0.1 - - [21/Jun/2024:14:37:02 +0000] "PUT /project/update_project/2 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:37:12.679Z [info]: 127.0.0.1 - - [21/Jun/2024:14:37:12 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:39:37.820Z [info]: 127.0.0.1 - - [21/Jun/2024:14:39:37 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 345 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:39:48.373Z [info]: 127.0.0.1 - - [21/Jun/2024:14:39:48 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 345 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:40:19.798Z [info]: 127.0.0.1 - - [21/Jun/2024:14:40:19 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 383 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:40:25.810Z [info]: 127.0.0.1 - - [21/Jun/2024:14:40:25 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 383 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:43:57.022Z [info]: 127.0.0.1 - - [21/Jun/2024:14:43:57 +0000] "DELETE /project/delete/3 HTTP/1.1" 200 42 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:44:22.435Z [info]: 127.0.0.1 - - [21/Jun/2024:14:44:22 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:44:30.670Z [info]: 127.0.0.1 - - [21/Jun/2024:14:44:30 +0000] "POST /project/create_project HTTP/1.1" 201 389 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:44:55.612Z [info]: 127.0.0.1 - - [21/Jun/2024:14:44:55 +0000] "PUT /project/update_project/2 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:45:27.770Z [info]: 127.0.0.1 - - [21/Jun/2024:14:45:27 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 388 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:45:35.170Z [info]: 127.0.0.1 - - [21/Jun/2024:14:45:35 +0000] "PUT /project/update_project/1 HTTP/1.1" 200 383 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:46:02.833Z [info]: 127.0.0.1 - - [21/Jun/2024:14:46:02 +0000] "PUT /project/update_project/2 HTTP/1.1" 200 361 "-" "PostmanRuntime/7.37.3"
+2024-06-21T14:48:29.840Z [info]: 127.0.0.1 - - [21/Jun/2024:14:48:29 +0000] "GET /project/ HTTP/1.1" 200 991 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:20:15.400Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:20:19.396Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:20:30.108Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:21:03.540Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:21:32.224Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:21:36.249Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:21:46.070Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:22:20.756Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:22:33.130Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:22:34.769Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:22:45.830Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:22:51.657Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:23:33.834Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:23:55.823Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:24:05.650Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:24:23.305Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:25:29.112Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:25:30.625Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:25:37.165Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:02.443Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:05.519Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:09.022Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:11.914Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:29.589Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:39.797Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:43.386Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:26:47.379Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:27:45.109Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:28:13.368Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:29:22.475Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:29:40.547Z [error]: Unable to start the server: Too many keys specified; max 64 keys allowed
+2024-06-21T15:34:56.538Z [info]: 127.0.0.1 - - [21/Jun/2024:15:34:56 +0000] "GET /project/ HTTP/1.1" 500 38 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:38:37.433Z [info]: 127.0.0.1 - - [21/Jun/2024:15:38:37 +0000] "GET /project/ HTTP/1.1" 200 60 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:38:53.234Z [info]: 127.0.0.1 - - [21/Jun/2024:15:38:53 +0000] "POST /project/create_project HTTP/1.1" 201 387 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:38:58.054Z [info]: 127.0.0.1 - - [21/Jun/2024:15:38:58 +0000] "POST /project/create_project HTTP/1.1" 201 387 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:38:59.147Z [info]: 127.0.0.1 - - [21/Jun/2024:15:38:59 +0000] "POST /project/create_project HTTP/1.1" 400 51 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:39:04.007Z [info]: 127.0.0.1 - - [21/Jun/2024:15:39:04 +0000] "POST /project/create_project HTTP/1.1" 400 181 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:39:11.675Z [info]: 127.0.0.1 - - [21/Jun/2024:15:39:11 +0000] "POST /project/create_project HTTP/1.1" 201 389 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:39:22.924Z [info]: 127.0.0.1 - - [21/Jun/2024:15:39:22 +0000] "GET /project/ HTTP/1.1" 200 1066 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:41:07.404Z [info]: 127.0.0.1 - - [21/Jun/2024:15:41:07 +0000] "GET /project/?page=2&pageSize=10 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:41:17.394Z [info]: 127.0.0.1 - - [21/Jun/2024:15:41:17 +0000] "GET /project/?page=1&pageSize=2 HTTP/1.1" 200 730 "-" "PostmanRuntime/7.37.3"
+2024-06-21T15:41:25.666Z [info]: 127.0.0.1 - - [21/Jun/2024:15:41:25 +0000] "GET /project/?page=2&pageSize=2 HTTP/1.1" 200 393 "-" "PostmanRuntime/7.37.3"
+2024-06-21T17:43:57.224Z [info]: 127.0.0.1 - - [21/Jun/2024:17:43:57 +0000] "GET /project/?page=2&pageSize=2 HTTP/1.1" 200 393 "-" "PostmanRuntime/7.37.3"
+2024-06-21T20:15:39.556Z [info]: 127.0.0.1 - - [21/Jun/2024:20:15:39 +0000] "GET /ws HTTP/1.1" 404 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:30:47.356Z [info]: 127.0.0.1 - - [21/Jun/2024:20:30:47 +0000] "GET /ws HTTP/1.1" 404 26 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:32:01.007Z [info]: 127.0.0.1 - - [21/Jun/2024:20:32:01 +0000] "OPTIONS /create-admins HTTP/1.1" 204 0 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:32:01.408Z [info]: 127.0.0.1 - - [21/Jun/2024:20:32:01 +0000] "POST /create-admins HTTP/1.1" 201 344 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:36:42.786Z [info]: 127.0.0.1 - - [21/Jun/2024:20:36:42 +0000] "OPTIONS /create-admins HTTP/1.1" 204 0 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:36:43.225Z [info]: 127.0.0.1 - - [21/Jun/2024:20:36:43 +0000] "POST /create-admins HTTP/1.1" 400 50 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:38:41.281Z [info]: 127.0.0.1 - - [21/Jun/2024:20:38:41 +0000] "OPTIONS /create-admins HTTP/1.1" 204 0 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:38:41.486Z [info]: 127.0.0.1 - - [21/Jun/2024:20:38:41 +0000] "POST /create-admins HTTP/1.1" 400 50 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:57:14.006Z [info]: 127.0.0.1 - - [21/Jun/2024:20:57:14 +0000] "GET /static/js/bundle.js HTTP/1.1" 404 26 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T20:57:14.647Z [info]: 127.0.0.1 - - [21/Jun/2024:20:57:14 +0000] "GET /manifest.json HTTP/1.1" 404 26 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+2024-06-21T21:09:57.973Z [info]: 127.0.0.1 - - [21/Jun/2024:21:09:57 +0000] "GET /project HTTP/1.1" 200 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
